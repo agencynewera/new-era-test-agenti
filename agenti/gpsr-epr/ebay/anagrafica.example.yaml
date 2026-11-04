@@ -1,0 +1,24 @@
+# Struttura dell'anagrafica GPSR di un cliente (valori FINTI).
+# Le anagrafiche vere (una per cliente) restano in ~/.claude/skills/ebay-core/gpsr/ sul Mac di Mariano.
+responsabile_ue:
+  CompanyName: Esempio Responsabile S.r.l.
+  Street1: Via Esempio 1
+  CityName: Roma
+  PostalCode: "00100"
+  StateOrProvince: RM
+  Country: IT
+  Email: responsabile@example.com
+  Phone: "3330000000"
+avvertenze_default:
+  - Tenere fuori dalla portata dei bambini.
+  - Leggere le istruzioni prima dell'uso.
+produttori:
+  MarcaEsempio:
+    CompanyName: Produttore Esempio S.p.A.
+    Street1: Via Fittizia 2
+    CityName: Milano
+    PostalCode: "20100"
+    StateOrProvince: MI
+    Country: IT
+    Email: produttore@example.com
+    Phone: "3330000001"

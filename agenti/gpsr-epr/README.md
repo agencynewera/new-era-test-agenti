@@ -1,9 +1,22 @@
 # Agente GPSR ed EPR
 
-**GPSR (sicurezza prodotto UE).** Su Amazon non è una skill a parte: i campi stanno nel `giro.py` di **amazon-inserzioni** (`gpsr_produttore`, `gpsr_responsabile_ue`, `gpsr_attestazione`, `avvertenze`), con anteprima e "vai" come ogni aggiornamento. Prima scrittura dal vivo: ECM, 8 SKU, il 01/11/2026. Il codice sta in [`../amazon-inserzioni`](../amazon-inserzioni).
+## GPSR (sicurezza prodotto UE): caricato
 
-Dati di partenza: il modulo master «MASTER - Modulo Compliance GPSR (tutti i clienti)» su Drive (cartella ONBORDING CLIENTI), una riga di produttore per marca. Su eBay c'è un'estensione costruita, non ancora usata dal vivo.
+Il GPSR non è un agente a sé: è un pezzo di tre agenti diversi. Qui ci sono le **copie dei file GPSR** di ciascuno, divise per marketplace, per leggerle e collaudarle tutte insieme.
 
-**EPR (responsabilità estesa del produttore: RAEE, imballaggi, pile…).** Non c'è ancora nessun agente. Da progettare insieme: cosa serve per marketplace e paese, da dove si prendono i numeri di registrazione, cosa si può scrivere via API.
+| Marketplace | File qui | Agente completo | Stato |
+|---|---|---|---|
+| Amazon | `amazon/campi.py` (campi `gpsr_produttore`, `gpsr_responsabile_ue`, `gpsr_attestazione`, `avvertenze`) | `../amazon-inserzioni` (già in questa repo, coi test che girano) | attivo: prima scrittura dal vivo su ECM, 8 SKU, 01/11/2026 |
+| eBay | `ebay/gpsr.py`, `ebay/genera_anagrafica.py`, `ebay/RICERCA-GPSR.md`, `ebay/anagrafica.example.yaml` | `ebay-aggiorna-inserzione` + `ebay-core` (non in questa repo) | costruito, prima scrittura dal vivo da fare |
+| Temu | `temu/temu_gpsr.py` | `temu-crea-inserzione` (non in questa repo) | in costruzione, manca l'accesso API |
 
-In questa cartella: la scheda di test per la parte GPSR e, quando si decide, il progetto della parte EPR.
+- `REGOLE-GPSR-wiki.md`: le regole e lo stato dalla wiki di New Era (copia del 04/11/2026).
+- `ebay/test-originali/`: i test GPSR della skill eBay, da leggere: qui non girano da soli perché chiamano altri moduli della skill.
+- Le anagrafiche vere dei clienti (produttori e responsabile UE per marca) **non sono qui**: c'è solo la struttura con valori finti.
+- Dati di partenza per un cliente nuovo: il modulo «MASTER - Modulo Compliance GPSR (tutti i clienti)» su Drive (cartella ONBORDING CLIENTI).
+
+Le correzioni al codice vanno fatte nell'agente completo: questa cartella serve per la scheda di test e la visione d'insieme. Se serve collaudare eBay o Temu dal vivo, si caricano le due skill intere.
+
+## EPR (responsabilità estesa del produttore: RAEE, imballaggi, pile…): da fare più avanti
+
+Nessun agente ancora. Da progettare insieme con Mariano.
