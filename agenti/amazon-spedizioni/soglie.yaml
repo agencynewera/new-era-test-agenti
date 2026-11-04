@@ -1,0 +1,5 @@
+# Soglie di copertura per il giro dello stock (DESIGN §14).
+# Il segnale primario resta il consiglio di riassortimento di Amazon: questi
+# giorni servono solo come rete di sicurezza, e a renderla più nervosa dove serve.
+default_giorni: 30
+clienti: {}

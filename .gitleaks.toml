@@ -1,0 +1,7 @@
+# Falsi positivi noti: chiavi A+ finte usate nei test (amzn1.aplus.cr.abc / .def / .nuovo).
+[extend]
+useDefault = true
+
+[allowlist]
+description = "chiavi finte dei test"
+regexes = ['''amzn1\.aplus\.cr\.(abc|def|nuovo)''']

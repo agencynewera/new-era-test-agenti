@@ -1,0 +1,1989 @@
+{
+  "piano": {
+    "createdAt": "2026-08-31T16:36:34Z",
+    "marketplaceIds": [
+      "APJ6JRA9NG5V4"
+    ],
+    "packingOptions": [
+      {
+        "packingOptionId": "po71cb3e41-31b7-44d8-8785-b55a80d30e88",
+        "status": "ACCEPTED"
+      }
+    ],
+    "sourceAddress": {
+      "phoneNumber": "<omesso>",
+      "city": "Pistoia",
+      "countryCode": "IT",
+      "postalCode": "51100",
+      "name": "Bedshire",
+      "addressLine1": "DATO FINTO 3",
+      "stateOrProvinceCode": "PT"
+    },
+    "lastUpdatedAt": "2026-08-31T17:01:25Z",
+    "name": "Spedizione XJ-YOJW-FUSZ",
+    "inboundPlanId": "wf017a1157-4444-4d56-8d5d-b3660cee253a",
+    "placementOptions": [
+      {
+        "placementOptionId": "pl0f47b947-9e43-49f7-b9a7-5210f0dee02e",
+        "status": "ACCEPTED"
+      }
+    ],
+    "shipments": [
+      {
+        "shipmentId": "shefef8a94-6775-415b-a8e3-a05296d47d7e",
+        "status": "WORKING"
+      }
+    ],
+    "status": "ACTIVE"
+  },
+  "packingOptions": {
+    "packingOptions": [
+      {
+        "packingGroups": [
+          "pgcdd5731e-854a-4635-b3b6-834905f35fe5"
+        ],
+        "fees": [],
+        "discounts": [],
+        "packingOptionId": "po71cb3e41-31b7-44d8-8785-b55a80d30e88",
+        "supportedConfigurations": [
+          {
+            "shippingRequirements": [
+              {
+                "modes": [
+                  "GROUND_SMALL_PARCEL"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "FREIGHT_LTL"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "FREIGHT_FTL_PALLET"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "OCEAN_LCL"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "OCEAN_FCL"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "AIR_SMALL_PARCEL"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "AIR_SMALL_PARCEL_EXPRESS"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "GROUND_SMALL_PARCEL"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "FREIGHT_LTL"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "FREIGHT_FTL_PALLET"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "OCEAN_LCL"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "OCEAN_FCL"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "AIR_SMALL_PARCEL"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "AIR_SMALL_PARCEL_EXPRESS"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              }
+            ],
+            "boxPackingMethods": [
+              "BOX_CONTENT_PROVIDED",
+              "BARCODE_2D",
+              "MANUAL_PROCESS"
+            ]
+          }
+        ],
+        "supportedShippingConfigurations": [
+          {
+            "shippingMode": "GROUND_SMALL_PARCEL",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "FREIGHT_LTL",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "FREIGHT_FTL_PALLET",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "OCEAN_LCL",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "OCEAN_FCL",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "AIR_SMALL_PARCEL",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "AIR_SMALL_PARCEL_EXPRESS",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "GROUND_SMALL_PARCEL",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "FREIGHT_LTL",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "FREIGHT_FTL_PALLET",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "OCEAN_LCL",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "OCEAN_FCL",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "AIR_SMALL_PARCEL",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "AIR_SMALL_PARCEL_EXPRESS",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          }
+        ],
+        "status": "ACCEPTED"
+      }
+    ],
+    "pagination": {}
+  },
+  "placementOptions": {
+    "pagination": {},
+    "placementOptions": [
+      {
+        "fees": [
+          {
+            "description": "Placement service fee represents service to inbound with minimal shipment splits and destinations of skus",
+            "type": "FEE",
+            "value": {
+              "amount": 0,
+              "code": "EUR"
+            },
+            "target": "Placement Services"
+          }
+        ],
+        "shipmentIds": [
+          "shefef8a94-6775-415b-a8e3-a05296d47d7e"
+        ],
+        "discounts": [],
+        "expiration": "2026-09-03T16:42:38.640Z",
+        "placementOptionId": "pl0f47b947-9e43-49f7-b9a7-5210f0dee02e",
+        "status": "ACCEPTED"
+      }
+    ]
+  },
+  "boxes": {
+    "boxes": [
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B1",
+        "packageId": "pk6dc57372-29b7-4699-8715-637460bf375e",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000001",
+        "boxId": "FBA15M9GM6FJU000001",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B2",
+        "packageId": "pk46d908b6-757e-4074-a035-9a0bc10ac126",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000002",
+        "boxId": "FBA15M9GM6FJU000002",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B3",
+        "packageId": "pk6e05b9d6-9a59-4425-896d-5b2492a413c4",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000003",
+        "boxId": "FBA15M9GM6FJU000003",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B4",
+        "packageId": "pkdc275fb8-9487-4275-bb69-fa434d499209",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000004",
+        "boxId": "FBA15M9GM6FJU000004",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B5",
+        "packageId": "pk72cee02a-9527-40cd-915c-026123662b96",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000005",
+        "boxId": "FBA15M9GM6FJU000005",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B6",
+        "packageId": "pk68107bc3-3bec-4449-b33c-b518bbcb92da",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000006",
+        "boxId": "FBA15M9GM6FJU000006",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B7",
+        "packageId": "pk98cf99ef-bdf2-4cae-bb9a-565b29bb4d81",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000007",
+        "boxId": "FBA15M9GM6FJU000007",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B8",
+        "packageId": "pkf168dd22-0996-4170-91dc-71f53742523a",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000008",
+        "boxId": "FBA15M9GM6FJU000008",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B9",
+        "packageId": "pkbaf5e659-7d00-46e6-aa1a-5f726fd55a3d",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000009",
+        "boxId": "FBA15M9GM6FJU000009",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B10",
+        "packageId": "pkadb77b7b-9546-493d-a3a2-c395ae0293bf",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000010",
+        "boxId": "FBA15M9GM6FJU000010",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B11",
+        "packageId": "pkf77adbe2-7281-4d7c-90f0-7cf655780202",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000011",
+        "boxId": "FBA15M9GM6FJU000011",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B12",
+        "packageId": "pk5171ff55-6633-4c8e-a76f-0f259f6be3ea",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000012",
+        "boxId": "FBA15M9GM6FJU000012",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B13",
+        "packageId": "pk2b6234e2-cd54-4241-a080-81141bdec60d",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000013",
+        "boxId": "FBA15M9GM6FJU000013",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B14",
+        "packageId": "pk39145525-4222-4ca1-8035-a9e799d0f428",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000014",
+        "boxId": "FBA15M9GM6FJU000014",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B15",
+        "packageId": "pk5af911a4-7208-4a21-9ce0-77e7831955e3",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000015",
+        "boxId": "FBA15M9GM6FJU000015",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B16",
+        "packageId": "pk947130db-ed0f-414f-a17f-2e7eab0faa7e",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000016",
+        "boxId": "FBA15M9GM6FJU000016",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B17",
+        "packageId": "pkc3088496-7a00-4afa-a451-1795816d3a34",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000017",
+        "boxId": "FBA15M9GM6FJU000017",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B18",
+        "packageId": "pkb4f464aa-0240-4784-a9b9-a2e7fbe611da",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000018",
+        "boxId": "FBA15M9GM6FJU000018",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B19",
+        "packageId": "pk48186e7b-4d9b-4099-b013-7f511e2deeca",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000019",
+        "boxId": "FBA15M9GM6FJU000019",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B20",
+        "packageId": "pk60775ff6-4f27-4706-990e-fcc072c84d18",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000020",
+        "boxId": "FBA15M9GM6FJU000020",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B21",
+        "packageId": "pkd9798848-25c0-463b-8a0e-9f5bf938d111",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000021",
+        "boxId": "FBA15M9GM6FJU000021",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B22",
+        "packageId": "pk8da5c514-2cf8-4141-a7ff-ecbf4fe19f79",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000022",
+        "boxId": "FBA15M9GM6FJU000022",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B23",
+        "packageId": "pkbbdda88d-c105-4a7e-be3e-a30bd9755d39",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000023",
+        "boxId": "FBA15M9GM6FJU000023",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B24",
+        "packageId": "pkde3f040d-070b-4cd5-993a-ffc1160fd4a4",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000024",
+        "boxId": "FBA15M9GM6FJU000024",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      }
+    ],
+    "pagination": {}
+  },
+  "packingGroupItems": {
+    "pagination": {},
+    "items": [
+      {
+        "labelOwner": "SELLER",
+        "msku": "XJ-YOJW-FUSZ",
+        "quantity": 120,
+        "fnsku": "X001YC6MP3",
+        "asin": "B08B1VPBDB",
+        "prepInstructions": [
+          {
+            "prepType": "ITEM_LABELING",
+            "fee": {
+              "amount": 0,
+              "code": "EUR"
+            },
+            "prepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  "packingGroupBoxes": {
+    "boxes": [
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk2b6234e2-cd54-4241-a080-81141bdec60d",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000013",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk39145525-4222-4ca1-8035-a9e799d0f428",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000014",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk46d908b6-757e-4074-a035-9a0bc10ac126",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000002",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk48186e7b-4d9b-4099-b013-7f511e2deeca",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000019",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk5171ff55-6633-4c8e-a76f-0f259f6be3ea",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000012",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk5af911a4-7208-4a21-9ce0-77e7831955e3",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000015",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk60775ff6-4f27-4706-990e-fcc072c84d18",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000020",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk68107bc3-3bec-4449-b33c-b518bbcb92da",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000006",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk6dc57372-29b7-4699-8715-637460bf375e",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000001",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk6e05b9d6-9a59-4425-896d-5b2492a413c4",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000003",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk72cee02a-9527-40cd-915c-026123662b96",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000005",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk8da5c514-2cf8-4141-a7ff-ecbf4fe19f79",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000022",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk947130db-ed0f-414f-a17f-2e7eab0faa7e",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000016",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk98cf99ef-bdf2-4cae-bb9a-565b29bb4d81",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000007",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pkadb77b7b-9546-493d-a3a2-c395ae0293bf",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000010",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pkb4f464aa-0240-4784-a9b9-a2e7fbe611da",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000018",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pkbaf5e659-7d00-46e6-aa1a-5f726fd55a3d",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000009",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pkbbdda88d-c105-4a7e-be3e-a30bd9755d39",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000023",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pkc3088496-7a00-4afa-a451-1795816d3a34",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000017",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pkd9798848-25c0-463b-8a0e-9f5bf938d111",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000021",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pkdc275fb8-9487-4275-bb69-fa434d499209",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000004",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pkde3f040d-070b-4cd5-993a-ffc1160fd4a4",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000024",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pkf168dd22-0996-4170-91dc-71f53742523a",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000008",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pkf77adbe2-7281-4d7c-90f0-7cf655780202",
+        "weight": {
+          "unit": "KG",
+          "value": 13
+        },
+        "items": [
+          {
+            "labelOwner": "SELLER",
+            "msku": "XJ-YOJW-FUSZ",
+            "quantity": 5,
+            "fnsku": "X001YC6MP3",
+            "asin": "B08B1VPBDB",
+            "prepInstructions": [
+              {
+                "prepType": "ITEM_LABELING",
+                "fee": {
+                  "amount": 0,
+                  "code": "EUR"
+                },
+                "prepOwner": "SELLER"
+              }
+            ]
+          }
+        ],
+        "externalContainerIdentifier": "FBA15M9GM6FJU000011",
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 39,
+          "width": 42,
+          "height": 54
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      }
+    ],
+    "pagination": {}
+  },
+  "shipments": {
+    "shefef8a94-6775-415b-a8e3-a05296d47d7e": {
+      "selectedTransportationOptionId": "to03d2c7d7-f13e-4eb4-89bf-759aa9b36f0f",
+      "contactInformation": {
+        "phoneNumber": "<omesso>",
+        "name": "Bedshire"
+      },
+      "shipmentId": "shefef8a94-6775-415b-a8e3-a05296d47d7e",
+      "amazonReferenceId": "29V9JKIK",
+      "destination": {
+        "address": {
+          "city": "Alessandria",
+          "countryCode": "IT",
+          "postalCode": "15122",
+          "name": "Amazon EU SARL - TRN3",
+          "addressLine1": "Str. John Fitzgerald Kennedy",
+          "stateOrProvinceCode": "Piedmont"
+        },
+        "warehouseId": "TRN3",
+        "destinationType": "AMAZON_WAREHOUSE"
+      },
+      "name": "FBA STA (31/08/2026 16:56)-TRN3",
+      "dates": {},
+      "shipmentConfirmationId": "FBA15M9GM6FJ",
+      "source": {
+        "address": {
+          "phoneNumber": "<omesso>",
+          "city": "Pistoia",
+          "countryCode": "IT",
+          "postalCode": "51100",
+          "name": "Bedshire",
+          "addressLine1": "DATO FINTO 3",
+          "stateOrProvinceCode": "PT"
+        },
+        "sourceType": "SELLER_FACILITY"
+      },
+      "trackingDetails": {
+        "ltlTrackingDetail": {},
+        "spdTrackingDetail": {
+          "spdTrackingItems": []
+        }
+      },
+      "placementOptionId": "pl0f47b947-9e43-49f7-b9a7-5210f0dee02e",
+      "status": "WORKING"
+    }
+  }
+}

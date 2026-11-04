@@ -16,13 +16,13 @@ rsync -a --no-links \
   --exclude '.ssh/' --exclude '.aws/' --exclude '.netrc' --exclude 'credentials*' --exclude 'credenziali*' \
   --exclude 'service-account*' --exclude '*token*.json' --exclude 'token/' --exclude '.secrets/' \
   --exclude '*.db' --exclude '*.sqlite*' --exclude '*.log' --exclude 'logs/' \
-  --exclude '*.csv' --exclude '*.xlsx' --exclude '*.xls' \
+  --include 'fixtures/*.csv' --include 'fixtures/*.xlsx' --exclude '*.csv' --exclude '*.xlsx' --exclude '*.xls' \
   --exclude '.venv/' --exclude 'venv/' --exclude '__pycache__/' --exclude 'node_modules/' --exclude '.DS_Store' \
-  --exclude 'scratchpad/' --exclude 'output/' --exclude 'dati/' \
+  --exclude 'scratchpad/' --exclude 'output/' --exclude 'dati/' --exclude '.claude/' --exclude '.playwright-mcp/' \
   "$ORIG/" "$TMP/"
 
 # Controllo segreti PRIMA di mettere la copia nel repo: se trova qualcosa, non copia nulla.
-if ! gitleaks detect --no-git --source "$TMP" --no-banner --redact; then
+if ! gitleaks detect --no-git --source "$TMP" --config "$REPO/.gitleaks.toml" --no-banner --redact; then
   echo "ATTENZIONE: gitleaks ha trovato possibili segreti in $ORIG. Nessun file copiato nel repo."; exit 2
 fi
 echo "gitleaks: nessun segreto trovato."

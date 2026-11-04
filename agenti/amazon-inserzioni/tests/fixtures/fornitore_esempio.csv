@@ -1,0 +1,4 @@
+Codice,Nome Articolo,Marca,Prezzo,Qta,TipoProdotto,Foto,EAN
+SKU-1,Tappeto yoga antiscivolo,New Era Test,29.90,50,EXERCISE_MAT,"https://x/1.jpg,https://x/2.jpg",8001234567890
+SKU-2,Borraccia termica,New Era Test,,20,LUGGAGE,https://x/3.jpg,8001234567891
+SKU-3,Zaino sportivo,New Era Test,39.90,abc,LUGGAGE,https://x/4.jpg,8001234567892

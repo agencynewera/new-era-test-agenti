@@ -1,0 +1,7 @@
+# Log del LaunchAgent: girano ogni giorno, non sono storia del progetto.
+logs/*.log
+# Scarti delle sessioni browser usate per guardare l'anteprima della mail.
+.playwright-mcp/
+*.png
+.pytest_cache/
+__pycache__/

@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "required": ["item_name", "brand", "colore"],
+  "properties": {
+    "item_name": {"type": "array"},
+    "brand": {"type": "array"},
+    "colore": {"type": "array"}
+  }
+}

@@ -22,3 +22,9 @@ Quando tutti gli agenti scelti sono `rivisto`, si fa la **revisione finale** ins
 
 ---
 *Increase your performance* · New Era S.r.l.
+
+## Note sulle copie
+
+- I dati personali dei clienti (indirizzi, telefoni, nomi di persona, mail) sono sostituiti con valori finti; i nomi delle aziende restano.
+- `amazon-spedizioni/clienti.yaml` qui si chiama `clienti.example.yaml`: per provare dal vivo serve il file vero, che resta sul Mac di Mariano.
+- Le chiavi SP-API non sono nel repo: senza chiavi si lavora coi test (`python3 -m pytest -q` dentro la cartella).

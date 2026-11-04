@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>it.agencynewera.amazon-spedizioni-stock</string>
+
+    <!-- Python puro (scripts/giro_stock.sh → giro.py stock): qui non c'è
+         niente da giudicare, niente `claude -p` a differenza della sentinella Ads. -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/marianomartinez/.claude/skills/amazon-spedizioni/scripts/giro_stock.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/marianomartinez/.claude/skills/amazon-spedizioni</string>
+
+    <!-- Ogni giorno alle 11:00. La sentinella Ads gira anch'essa a quell'ora
+         ma scrive su Telegram: nessun conflitto, due canali diversi. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key><integer>11</integer>
+        <key>Minute</key><integer>0</integer>
+    </dict>
+
+    <!-- Se il Mac dorme alle 11:00, lancia appena si sveglia. A Mac SPENTO
+         invece l'evento e' perso: qui non c'e' un plist di recupero. -->
+
+    <key>StandardOutPath</key>
+    <string>/Users/marianomartinez/.claude/skills/amazon-spedizioni/logs/stock.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/marianomartinez/.claude/skills/amazon-spedizioni/logs/stock.err.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/marianomartinez/.local/bin:/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+</dict>
+</plist>

@@ -1,0 +1,133 @@
+# Configurazione locale dei clienti per amazon-spedizioni.
+# indirizzo_origine = sourceAddress di createInboundPlan; contatto = contactInformation
+# dei preventivi corriere; cartella = nome della cartella del cliente in
+# ~/Desktop/LAVORO/AZIENDE NEW ERA/PERFORMANCE, dove finiscono le etichette (10 LOGISTICA/PRIME).
+# Nessun segreto qui: le credenziali stanno in ~/scripts/.env.
+# Marketplace: Amazon.it = APJ6JRA9NG5V4 (.de A1PA6795UKMFR9, .fr A13V1IB3VIYZZH, .es A1RKKUPIHCS9HS)
+
+Phy to Pet:
+  cartella: Phy to pet
+  marketplace_id: APJ6JRA9NG5V4
+  # riletto il 2026-09-02 dai piani inbound gia' esistenti del cliente (sourceAddress)
+  indirizzo_origine:
+    name: DATO FINTO 14
+    addressLine1: DATO FINTO 4
+    city: GOITO
+    stateOrProvinceCode: MN
+    postalCode: "46044"
+    countryCode: IT
+    phoneNumber: "3330000000"
+  contatto:
+    name: DATO FINTO 14
+    phoneNumber: "3330000000"
+
+Bedshire:
+  cartella: Bedshire
+  marketplace_id: APJ6JRA9NG5V4
+  # usato dal vivo il 2026-08-31 per il piano wf017a1157 (spedizione FBA15M9GM6FJ)
+  indirizzo_origine:
+    name: Bedshire
+    addressLine1: DATO FINTO 3
+    city: Pistoia
+    stateOrProvinceCode: PT
+    postalCode: "51100"
+    countryCode: IT
+    phoneNumber: "3330000000"
+  contatto:
+    name: Bedshire
+    phoneNumber: "3330000000"
+
+Arcipelago:
+  cartella: Arcipelago Gin
+  marketplace_id: APJ6JRA9NG5V4
+  # riletto il 2026-09-03 dai piani inbound del cliente (sourceAddress), incluso
+  # l'ultimo spedito wfbddb69da del 16/07/2026. stateOrProvinceCode e' "Pisa, Toscana"
+  # come lo registra Amazon: copiato alla lettera, non normalizzato.
+  indirizzo_origine:
+    name: DATO FINTO 7
+    companyName: Guiducci Russo & Figli
+    addressLine1: DATO FINTO 9
+    city: Ponsacco
+    stateOrProvinceCode: "Pisa, Toscana"
+    postalCode: "56038"
+    countryCode: IT
+    phoneNumber: "3330000000"
+  contatto:
+    name: DATO FINTO 7
+    phoneNumber: "3330000000"
+
+ECM:
+  cartella: ECM
+  marketplace_id: APJ6JRA9NG5V4
+  # riletto il 2026-09-03 dai piani inbound del cliente (sourceAddress dell'ultimo
+  # piano wfbc955356 del 02/09/2026). stateOrProvinceCode "Italia/BT/Puglia" come lo
+  # registra Amazon: copiato alla lettera, non normalizzato.
+  indirizzo_origine:
+    name: ECM SRL
+    companyName: EDITORIA & COMUNICAZIONE MULTIMEDIALE SRL
+    addressLine1: DATO FINTO 2
+    city: BARLETTA
+    stateOrProvinceCode: Italia/BT/Puglia
+    postalCode: "76121"
+    countryCode: IT
+    phoneNumber: "3330000000"
+    email: cliente@example.com
+  contatto:
+    name: ECM SRL
+    phoneNumber: "3330000000"
+    email: cliente@example.com
+
+Maricart:
+  cartella: Maricart
+  marketplace_id: APJ6JRA9NG5V4
+  # riletto il 2026-09-07 dai piani inbound del cliente (sourceAddress, identico in
+  # tutti i 52 piani SHIPPED degli ultimi 24 mesi). stateOrProvinceCode "Italia" come
+  # lo registra Amazon: copiato alla lettera, non normalizzato.
+  indirizzo_origine:
+    name: DATO FINTO 6
+    companyName: MARICART Srl
+    addressLine1: DATO FINTO 0
+    city: Prato
+    stateOrProvinceCode: Italia
+    postalCode: "59100"
+    countryCode: IT
+    phoneNumber: "3330000000"
+  contatto:
+    name: DATO FINTO 6
+    phoneNumber: "3330000000"
+
+Galeone:
+  cartella: Galeone biancheria e tessuti
+  marketplace_id: APJ6JRA9NG5V4
+  # riletto il 2026-09-18 dai piani inbound del cliente (sourceAddress, identico nei
+  # 2 SHIPPED wf3ca44701 del 15/09 e wf7693b0c6 del 31/08 e nei 2 ACTIVE del 27/08).
+  indirizzo_origine:
+    name: Galeone Srl
+    companyName: Galeone Srl
+    addressLine1: DATO FINTO 13
+    city: Pulsano
+    stateOrProvinceCode: TA
+    postalCode: "74026"
+    countryCode: IT
+    phoneNumber: "3330000000"
+  contatto:
+    name: Galeone Srl
+    phoneNumber: "3330000000"
+
+Rivextauto:
+  cartella: Rivextauto
+  marketplace_id: APJ6JRA9NG5V4
+  # riletto il 2026-09-21 dal piano inbound SHIPPED wfb1d761a2 del 20/07/2026 (sourceAddress,
+  # spedizione FBA15M23MWW9).
+  indirizzo_origine:
+    name: "DATO FINTO 12"
+    companyName: "Rivextauto"
+    addressLine1: "DATO FINTO 1"
+    city: "campi bisenzio"
+    stateOrProvinceCode: "FI"
+    postalCode: "50013"
+    countryCode: "IT"
+    phoneNumber: "3330000000"
+  contatto:
+    name: "DATO FINTO 12"
+    phoneNumber: "3330000000"

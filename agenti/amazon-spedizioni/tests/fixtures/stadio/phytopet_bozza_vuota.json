@@ -1,0 +1,38 @@
+{
+  "piano": {
+    "createdAt": "2026-08-29T20:16:43Z",
+    "marketplaceIds": [
+      "APJ6JRA9NG5V4"
+    ],
+    "packingOptions": [],
+    "sourceAddress": {
+      "phoneNumber": "<omesso>",
+      "city": "GOITO",
+      "countryCode": "IT",
+      "postalCode": "46044",
+      "companyName": "UP 34 SRL",
+      "name": "DATO FINTO 14",
+      "addressLine1": "DATO FINTO 4",
+      "stateOrProvinceCode": "ITALIA"
+    },
+    "lastUpdatedAt": "2026-08-29T20:16:46Z",
+    "name": "",
+    "inboundPlanId": "wf570551a7-10fa-4ac2-a4f1-2c99a50e8742",
+    "placementOptions": [],
+    "shipments": [],
+    "status": "ACTIVE"
+  },
+  "packingOptions": {
+    "packingOptions": [],
+    "pagination": {}
+  },
+  "placementOptions": {
+    "pagination": {},
+    "placementOptions": []
+  },
+  "boxes": {
+    "boxes": [],
+    "pagination": {}
+  },
+  "shipments": {}
+}

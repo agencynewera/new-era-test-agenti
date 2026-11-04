@@ -1,0 +1,148 @@
+{
+  "version": "2026.1",
+  "last_updated": "2026-01-05",
+  "source": "Amazon Seller Central EU — Referral fees aggiornate al 5 gennaio 2026, FBA aggiornate al 1 febbraio 2026",
+  "disclaimer": "Valori indicativi. Verificare sempre su Seller Central per ASIN specifico.",
+
+  "vat_rates": {
+    "IT": {"rate": 0.22, "name": "IVA Italia 22%"},
+    "DE": {"rate": 0.19, "name": "MwSt Germania 19%"},
+    "FR": {"rate": 0.20, "name": "TVA Francia 20%"},
+    "ES": {"rate": 0.21, "name": "IVA Spagna 21%"}
+  },
+
+  "referral_fees": [
+    {"category": "Amazon Device Accessories", "category_it": "Accessori dispositivi Amazon", "rate": 0.45, "min_fee": 0.30, "tiered": false},
+    {"category": "Automotive & Powersports", "category_it": "Auto e Moto", "rate": 0.15, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 50, "rate": 0.15}, {"max_price": null, "rate": 0.09}]},
+    {"category": "Baby Products", "category_it": "Prima Infanzia", "rate": 0.15, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 10, "rate": 0.08}, {"max_price": null, "rate": 0.15}]},
+    {"category": "Backpacks and Handbags", "category_it": "Zaini e Borse", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Beauty, Health & Personal Care", "category_it": "Bellezza e Salute", "rate": 0.15, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 10, "rate": 0.08}, {"max_price": null, "rate": 0.15}]},
+    {"category": "Beer, Wine and Spirits", "category_it": "Birra, Vino e Alcolici", "rate": 0.10, "min_fee": 0.30, "tiered": false},
+    {"category": "Books", "category_it": "Libri", "rate": 0.15, "min_fee": 0.00, "tiered": false},
+    {"category": "Business, Industrial & Scientific Supplies", "category_it": "Industria e Scienza", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Small Appliances", "category_it": "Piccoli Elettrodomestici", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Clothing and Accessories", "category_it": "Abbigliamento", "rate": 0.15, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 15, "rate": 0.05}, {"max_price": 20, "rate": 0.10}, {"max_price": null, "rate": 0.15}]},
+    {"category": "Shoes", "category_it": "Scarpe", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Computers", "category_it": "Computer", "rate": 0.07, "min_fee": 0.30, "tiered": false},
+    {"category": "Consumer Electronics", "category_it": "Elettronica di Consumo", "rate": 0.07, "min_fee": 0.30, "tiered": false},
+    {"category": "Electronic Accessories", "category_it": "Accessori Elettronica", "rate": 0.15, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 100, "rate": 0.15}, {"max_price": null, "rate": 0.08}]},
+    {"category": "Eyewear", "category_it": "Occhiali", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Large Appliances", "category_it": "Grandi Elettrodomestici", "rate": 0.07, "min_fee": 0.30, "tiered": false},
+    {"category": "Furniture", "category_it": "Arredamento", "rate": 0.15, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 200, "rate": 0.15}, {"max_price": null, "rate": 0.10}]},
+    {"category": "Grocery and Gourmet", "category_it": "Alimentari e cura della casa", "rate": 0.15, "min_fee": 0.00, "tiered": true,
+     "tiers": [{"max_price": 10, "rate": 0.05}, {"max_price": null, "rate": 0.15}]},
+    {"category": "Home Products", "category_it": "Casa e cucina (Household Essentials)", "rate": 0.15, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 20, "rate": 0.08}, {"max_price": null, "rate": 0.15}]},
+    {"category": "Kitchen", "category_it": "Cucina", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Home Textiles and Rugs", "category_it": "Tessili e Tappeti", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Jewellery", "category_it": "Gioielli", "rate": 0.20, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 250, "rate": 0.20}, {"max_price": null, "rate": 0.05}]},
+    {"category": "Lawn & Garden", "category_it": "Giardinaggio", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Luggage", "category_it": "Valigeria", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Mattresses", "category_it": "Materassi", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Musical Instruments", "category_it": "Strumenti Musicali", "rate": 0.12, "min_fee": 0.30, "tiered": false},
+    {"category": "Office Supplies", "category_it": "Cancelleria e Ufficio", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Pet Supplies", "category_it": "Prodotti per Animali", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Pet Clothing and Food", "category_it": "Cibo e Abbigliamento Animali", "rate": 0.15, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 10, "rate": 0.05}, {"max_price": null, "rate": 0.15}]},
+    {"category": "Sports & Outdoors", "category_it": "Sport e Outdoor", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "DIY & Tools", "category_it": "Fai da te e Utensili", "rate": 0.13, "min_fee": 0.30, "tiered": false},
+    {"category": "Toys and Games", "category_it": "Giochi e Giocattoli", "rate": 0.15, "min_fee": 0.30, "tiered": false},
+    {"category": "Video Games and Gaming Accessories", "category_it": "Videogiochi e Accessori", "rate": 0.15, "min_fee": 0.00, "tiered": false},
+    {"category": "Vitamins, Minerals and Supplements", "category_it": "Vitamine e Integratori", "rate": 0.15, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 10, "rate": 0.05}, {"max_price": null, "rate": 0.15}]},
+    {"category": "Watches", "category_it": "Orologi", "rate": 0.20, "min_fee": 0.30, "tiered": true,
+     "tiers": [{"max_price": 250, "rate": 0.15}, {"max_price": null, "rate": 0.05}]},
+    {"category": "Everything Else", "category_it": "Altro", "rate": 0.15, "min_fee": 0.30, "tiered": false}
+  ],
+
+  "fba_size_tiers": [
+    {"tier_code": "ENV_S", "tier_name": "Busta Piccola", "max_l_cm": 33, "max_w_cm": 23, "max_h_cm": 2.5, "max_weight_kg": 0.08, "fee_eur": 2.30, "fee_per_extra_100g": 0.00},
+    {"tier_code": "ENV_M", "tier_name": "Busta Standard", "max_l_cm": 33, "max_w_cm": 23, "max_h_cm": 2.5, "max_weight_kg": 0.46, "fee_eur": 2.62, "fee_per_extra_100g": 0.00},
+    {"tier_code": "ENV_L", "tier_name": "Busta Grande", "max_l_cm": 33, "max_w_cm": 23, "max_h_cm": 4, "max_weight_kg": 0.96, "fee_eur": 2.91, "fee_per_extra_100g": 0.00},
+    {"tier_code": "ENV_XL", "tier_name": "Busta Extra-Grande", "max_l_cm": 33, "max_w_cm": 23, "max_h_cm": 6, "max_weight_kg": 0.96, "fee_eur": 3.21, "fee_per_extra_100g": 0.00},
+    {"tier_code": "PARCEL_S", "tier_name": "Pacco Piccolo", "max_l_cm": 35, "max_w_cm": 25, "max_h_cm": 12, "max_weight_kg": 3.9, "fee_eur": 3.41, "fee_per_extra_100g": 0.05},
+    {"tier_code": "PARCEL_STD", "tier_name": "Pacco Standard", "max_l_cm": 45, "max_w_cm": 34, "max_h_cm": 26, "max_weight_kg": 12, "fee_eur": 4.06, "fee_per_extra_100g": 0.06},
+    {"tier_code": "PARCEL_L", "tier_name": "Pacco Grande", "max_l_cm": 61, "max_w_cm": 46, "max_h_cm": 46, "max_weight_kg": 23, "fee_eur": 6.43, "fee_per_extra_100g": 0.08},
+    {"tier_code": "OVERSIZE_S", "tier_name": "Oversize Piccolo", "max_l_cm": 120, "max_w_cm": 60, "max_h_cm": 60, "max_weight_kg": 30, "fee_eur": 9.85, "fee_per_extra_kg": 0.32},
+    {"tier_code": "OVERSIZE_L", "tier_name": "Oversize Grande", "max_l_cm": 175, "max_w_cm": 120, "max_h_cm": 120, "max_weight_kg": 50, "fee_eur": 16.20, "fee_per_extra_kg": 0.45},
+    {"tier_code": "SPECIAL_OVERSIZE", "tier_name": "Oversize Speciale", "max_l_cm": null, "max_w_cm": null, "max_h_cm": null, "max_weight_kg": null, "fee_eur": 28.50, "fee_per_extra_kg": 0.55}
+  ],
+
+  "fba_fee_notes": {
+    "calculation_note": "Per parcels e oversize, il peso considerato è il MAGGIORE tra peso reale e peso volumetrico (L×W×H/5000 in kg).",
+    "marketplace_variation": "Le fee qui sono medie EU-5 (IT/DE/FR/ES). Possono variare di ±5-10% per marketplace specifico.",
+    "low_price_fba": "Per prodotti venduti a ≤20€, Amazon applica Low-Price FBA con sconto medio di 0.45€/unità. Da applicare manualmente se applicabile.",
+    "fuel_surcharge_2026": "Dal 17 aprile 2026 si applica un surcharge carburante/logistica del 1.5% sulle FBA fees in IT/DE/FR/ES/UK."
+  },
+
+  "storage_fees": {
+    "standard_jan_sep_eur_per_m3_month": 26.00,
+    "standard_oct_dec_eur_per_m3_month": 36.00,
+    "oversize_jan_sep_eur_per_m3_month": 18.00,
+    "oversize_oct_dec_eur_per_m3_month": 25.00,
+    "notes": "Calcolo: (Volume_m3 × tariffa_mensile × mesi_giacenza_media) / unità_vendute_al_mese. Default consigliato: 1 mese di storage incluso nei costi."
+  },
+
+  "fbm_assumptions": {
+    "default_shipping_cost_eur": 5.00,
+    "notes": "Il costo spedizione FBM è interamente a carico del seller. L'utente deve fornire il costo reale del proprio corriere."
+  },
+
+  "default_return_rates_by_category": {
+    "Clothing and Accessories": 0.25,
+    "Shoes": 0.22,
+    "Backpacks and Handbags": 0.18,
+    "Luggage": 0.15,
+    "Watches": 0.12,
+    "Jewellery": 0.12,
+    "Eyewear": 0.10,
+    "Consumer Electronics": 0.08,
+    "Computers": 0.08,
+    "Electronic Accessories": 0.07,
+    "Small Appliances": 0.07,
+    "Large Appliances": 0.06,
+    "Toys and Games": 0.06,
+    "Sports & Outdoors": 0.06,
+    "Beauty, Health & Personal Care": 0.05,
+    "Home Products": 0.05,
+    "Kitchen": 0.05,
+    "Home Textiles and Rugs": 0.05,
+    "Office Supplies": 0.04,
+    "Furniture": 0.10,
+    "Mattresses": 0.15,
+    "Pet Supplies": 0.04,
+    "Pet Clothing and Food": 0.06,
+    "DIY & Tools": 0.05,
+    "Lawn & Garden": 0.05,
+    "Baby Products": 0.05,
+    "Books": 0.04,
+    "Grocery and Gourmet": 0.03,
+    "Vitamins, Minerals and Supplements": 0.04,
+    "Musical Instruments": 0.07,
+    "Automotive & Powersports": 0.08,
+    "Beer, Wine and Spirits": 0.02,
+    "Video Games and Gaming Accessories": 0.06,
+    "Business, Industrial & Scientific Supplies": 0.05,
+    "Amazon Device Accessories": 0.05,
+    "Everything Else": 0.05
+  },
+
+  "return_cost_assumption": {
+    "cost_per_return_eur": 4.50,
+    "notes": "Costo medio per gestione reso (logistica inversa + ricondizionamento). Varia per categoria; per prodotti abbigliamento può essere significativamente più alto."
+  },
+
+  "marketplace_metadata": {
+    "IT": {"name": "Amazon Italia", "currency": "EUR", "tld": "amazon.it"},
+    "DE": {"name": "Amazon Deutschland", "currency": "EUR", "tld": "amazon.de"},
+    "FR": {"name": "Amazon France", "currency": "EUR", "tld": "amazon.fr"},
+    "ES": {"name": "Amazon España", "currency": "EUR", "tld": "amazon.es"}
+  }
+}

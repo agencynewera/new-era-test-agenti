@@ -1,0 +1,454 @@
+{
+  "piano": {
+    "createdAt": "2026-08-29T20:39:24Z",
+    "marketplaceIds": [
+      "APJ6JRA9NG5V4"
+    ],
+    "packingOptions": [
+      {
+        "packingOptionId": "poac8c5c77-5984-4fda-88df-32e4d3a522f8",
+        "status": "ACCEPTED"
+      }
+    ],
+    "sourceAddress": {
+      "phoneNumber": "<omesso>",
+      "city": "GOITO",
+      "countryCode": "IT",
+      "postalCode": "46044",
+      "companyName": "UP 34 SRL",
+      "name": "DATO FINTO 14",
+      "addressLine1": "DATO FINTO 4",
+      "stateOrProvinceCode": "ITALIA"
+    },
+    "lastUpdatedAt": "2026-08-29T20:42:17Z",
+    "name": "Spedizione DENTIFRICIO_SPRAY_DUE",
+    "inboundPlanId": "wf0dae3b7c-919c-4efb-8761-c93d7126908f",
+    "placementOptions": [
+      {
+        "placementOptionId": "plcefc0b81-517e-48b1-82fe-71bec753869b",
+        "status": "OFFERED"
+      },
+      {
+        "placementOptionId": "pld7dd8605-d89b-431a-aaac-82698fbbc544",
+        "status": "OFFERED"
+      }
+    ],
+    "shipments": [],
+    "status": "ACTIVE"
+  },
+  "packingOptions": {
+    "packingOptions": [
+      {
+        "packingGroups": [
+          "pgb3e1e375-5777-402b-8817-e8fca4cb0d3f"
+        ],
+        "fees": [],
+        "discounts": [],
+        "packingOptionId": "poac8c5c77-5984-4fda-88df-32e4d3a522f8",
+        "supportedConfigurations": [
+          {
+            "shippingRequirements": [
+              {
+                "modes": [
+                  "GROUND_SMALL_PARCEL"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "FREIGHT_LTL"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "FREIGHT_FTL_PALLET"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "OCEAN_LCL"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "OCEAN_FCL"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "AIR_SMALL_PARCEL"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "AIR_SMALL_PARCEL_EXPRESS"
+                ],
+                "solution": "USE_YOUR_OWN_CARRIER"
+              },
+              {
+                "modes": [
+                  "GROUND_SMALL_PARCEL"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "FREIGHT_LTL"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "FREIGHT_FTL_PALLET"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "OCEAN_LCL"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "OCEAN_FCL"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "AIR_SMALL_PARCEL"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              },
+              {
+                "modes": [
+                  "AIR_SMALL_PARCEL_EXPRESS"
+                ],
+                "solution": "AMAZON_PARTNERED_CARRIER"
+              }
+            ],
+            "boxPackingMethods": [
+              "BOX_CONTENT_PROVIDED",
+              "BARCODE_2D",
+              "MANUAL_PROCESS"
+            ]
+          }
+        ],
+        "supportedShippingConfigurations": [
+          {
+            "shippingMode": "GROUND_SMALL_PARCEL",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "FREIGHT_LTL",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "FREIGHT_FTL_PALLET",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "OCEAN_LCL",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "OCEAN_FCL",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "AIR_SMALL_PARCEL",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "AIR_SMALL_PARCEL_EXPRESS",
+            "shippingSolution": "USE_YOUR_OWN_CARRIER"
+          },
+          {
+            "shippingMode": "GROUND_SMALL_PARCEL",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "FREIGHT_LTL",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "FREIGHT_FTL_PALLET",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "OCEAN_LCL",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "OCEAN_FCL",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "AIR_SMALL_PARCEL",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          },
+          {
+            "shippingMode": "AIR_SMALL_PARCEL_EXPRESS",
+            "shippingSolution": "AMAZON_PARTNERED_CARRIER"
+          }
+        ],
+        "status": "ACCEPTED"
+      }
+    ],
+    "pagination": {}
+  },
+  "placementOptions": {
+    "pagination": {},
+    "placementOptions": [
+      {
+        "fees": [
+          {
+            "description": "Placement service fee represents service to inbound with minimal shipment splits and destinations of skus",
+            "type": "FEE",
+            "value": {
+              "amount": 0,
+              "code": "EUR"
+            },
+            "target": "Placement Services"
+          }
+        ],
+        "shipmentIds": [
+          "sh29545cbd-13b1-4968-b1bf-21948c150e04"
+        ],
+        "discounts": [],
+        "expiration": "2026-09-01T20:39:56.199Z",
+        "placementOptionId": "plcefc0b81-517e-48b1-82fe-71bec753869b",
+        "status": "OFFERED"
+      },
+      {
+        "fees": [
+          {
+            "description": "Placement service fee represents service to inbound with minimal shipment splits and destinations of skus",
+            "type": "FEE",
+            "value": {
+              "amount": 0,
+              "code": "EUR"
+            },
+            "target": "Placement Services"
+          }
+        ],
+        "shipmentIds": [
+          "shdfdf09f3-5e26-49c4-9e15-c8cf420eb79f"
+        ],
+        "discounts": [],
+        "expiration": "2026-09-01T20:39:56.199Z",
+        "placementOptionId": "pld7dd8605-d89b-431a-aaac-82698fbbc544",
+        "status": "OFFERED"
+      }
+    ]
+  },
+  "boxes": {
+    "boxes": [
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B1",
+        "packageId": "pk520aa3ec-8232-4608-9a97-c12086cd1d85",
+        "weight": {
+          "unit": "KG",
+          "value": 0.8
+        },
+        "items": [
+          {
+            "labelOwner": "NONE",
+            "msku": "DENTIFRICIO_SPRAY_DUE",
+            "quantity": 10,
+            "fnsku": "B0F9XFJZ4Y",
+            "asin": "B0F9XFJZ4Y",
+            "prepInstructions": []
+          }
+        ],
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 10,
+          "width": 25,
+          "height": 15
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "templateName": "P1 - B2",
+        "packageId": "pk412c7f11-7c86-4e67-8863-6139d1e7f90e",
+        "weight": {
+          "unit": "KG",
+          "value": 0.8
+        },
+        "items": [
+          {
+            "labelOwner": "NONE",
+            "msku": "DENTIFRICIO_SPRAY_DUE",
+            "quantity": 10,
+            "fnsku": "B0F9XFJZ4Y",
+            "asin": "B0F9XFJZ4Y",
+            "prepInstructions": []
+          }
+        ],
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 10,
+          "width": 25,
+          "height": 15
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      }
+    ],
+    "pagination": {}
+  },
+  "packingGroupItems": {
+    "pagination": {},
+    "items": [
+      {
+        "labelOwner": "NONE",
+        "msku": "DENTIFRICIO_SPRAY_DUE",
+        "quantity": 20,
+        "fnsku": "B0F9XFJZ4Y",
+        "asin": "B0F9XFJZ4Y",
+        "prepInstructions": []
+      }
+    ]
+  },
+  "packingGroupBoxes": {
+    "boxes": [
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk412c7f11-7c86-4e67-8863-6139d1e7f90e",
+        "weight": {
+          "unit": "KG",
+          "value": 0.8
+        },
+        "items": [
+          {
+            "labelOwner": "NONE",
+            "msku": "DENTIFRICIO_SPRAY_DUE",
+            "quantity": 10,
+            "fnsku": "B0F9XFJZ4Y",
+            "asin": "B0F9XFJZ4Y",
+            "prepInstructions": []
+          }
+        ],
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 10,
+          "width": 25,
+          "height": 15
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      },
+      {
+        "quantity": 1,
+        "externalContainerIdentifierType": "AMAZON",
+        "packageId": "pk520aa3ec-8232-4608-9a97-c12086cd1d85",
+        "weight": {
+          "unit": "KG",
+          "value": 0.8
+        },
+        "items": [
+          {
+            "labelOwner": "NONE",
+            "msku": "DENTIFRICIO_SPRAY_DUE",
+            "quantity": 10,
+            "fnsku": "B0F9XFJZ4Y",
+            "asin": "B0F9XFJZ4Y",
+            "prepInstructions": []
+          }
+        ],
+        "dimensions": {
+          "unitOfMeasurement": "CM",
+          "length": 10,
+          "width": 25,
+          "height": 15
+        },
+        "contentInformationSource": "BOX_CONTENT_PROVIDED"
+      }
+    ],
+    "pagination": {}
+  },
+  "shipments": {
+    "sh29545cbd-13b1-4968-b1bf-21948c150e04": {
+      "shipmentId": "sh29545cbd-13b1-4968-b1bf-21948c150e04",
+      "destination": {
+        "address": {
+          "city": "Alessandria",
+          "countryCode": "IT",
+          "postalCode": "15122",
+          "name": "Amazon EU SARL - TRN3",
+          "addressLine1": "Str. John Fitzgerald Kennedy",
+          "stateOrProvinceCode": "Piedmont"
+        },
+        "warehouseId": "TRN3",
+        "destinationType": "AMAZON_WAREHOUSE"
+      },
+      "dates": {
+        "readyToShipWindow": {
+          "start": "2026-08-30T09:00Z",
+          "end": "2026-08-30T09:00Z"
+        }
+      },
+      "source": {
+        "address": {
+          "phoneNumber": "<omesso>",
+          "city": "GOITO",
+          "countryCode": "IT",
+          "postalCode": "46044",
+          "companyName": "UP 34 SRL",
+          "name": "DATO FINTO 14",
+          "addressLine1": "DATO FINTO 4",
+          "stateOrProvinceCode": "ITALIA"
+        },
+        "sourceType": "SELLER_FACILITY"
+      },
+      "placementOptionId": "plcefc0b81-517e-48b1-82fe-71bec753869b",
+      "status": "UNCONFIRMED"
+    },
+    "shdfdf09f3-5e26-49c4-9e15-c8cf420eb79f": {
+      "shipmentId": "shdfdf09f3-5e26-49c4-9e15-c8cf420eb79f",
+      "destination": {
+        "address": {
+          "city": "Alessandria",
+          "countryCode": "IT",
+          "postalCode": "15122",
+          "name": "Amazon EU SARL - TRN3",
+          "addressLine1": "Str. John Fitzgerald Kennedy",
+          "stateOrProvinceCode": "Piedmont"
+        },
+        "warehouseId": "TRN3",
+        "destinationType": "AMAZON_OPTIMIZED"
+      },
+      "dates": {
+        "readyToShipWindow": {
+          "start": "2026-08-30T09:00Z",
+          "end": "2026-08-30T09:00Z"
+        }
+      },
+      "source": {
+        "address": {
+          "phoneNumber": "<omesso>",
+          "city": "GOITO",
+          "countryCode": "IT",
+          "postalCode": "46044",
+          "companyName": "UP 34 SRL",
+          "name": "DATO FINTO 14",
+          "addressLine1": "DATO FINTO 4",
+          "stateOrProvinceCode": "ITALIA"
+        },
+        "sourceType": "SELLER_FACILITY"
+      },
+      "placementOptionId": "pld7dd8605-d89b-431a-aaac-82698fbbc544",
+      "status": "UNCONFIRMED"
+    }
+  }
+}
